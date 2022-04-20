@@ -4,6 +4,7 @@ import { useToken } from '../auth/useToken';
 import axios from 'axios';
 
 
+
 export const SignUpPage = () => {
     const [token, setToken] = useToken();
 
@@ -23,7 +24,7 @@ export const SignUpPage = () => {
 
         const { token } = response.data;
         setToken(token);
-        history.push('/');
+        history.push('/please-verify');
     };
 
 
