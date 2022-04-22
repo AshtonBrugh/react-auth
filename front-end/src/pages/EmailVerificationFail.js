@@ -12,4 +12,5 @@ export const EmailVerificationFail = () => {
         <button onClick={() => history.push('/signup')}>Back to sign up</button>
             </div>
     )
-}
+} 
+
